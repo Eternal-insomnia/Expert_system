@@ -1,0 +1,9 @@
+.all_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100%;
+}

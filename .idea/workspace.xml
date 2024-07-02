@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ExpertSystem:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7b4ac88-5010-4030-8dc1-ba0df800ae7d" name="Changes" comment="Исправлен баг при котором если все ответы теста были НЕТ, то веса материалов оставались ненулевыми.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addMaterial.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addMaterial.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addQuestion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExpertSystem/ShowTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExpertSystem/ShowTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExpertSystem/ShowTestNextQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExpertSystem/ShowTestNextQuestion.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Eternal-insomnia&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Eternal-insomnia/ExpertSystem_OfficeRenovation.git&quot;,
+    &quot;accountId&quot;: &quot;1287ee6a-6ea3-4573-8672-5e6aa642039c&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fg1zH0NWs43zDI7nWGDn86ZnoY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Deploy.executor&quot;: &quot;Run&quot;,
+    &quot;Remote JVM Debug.Debug.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat 10.1.16.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.16.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java progs/kursovaya&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java progs\ExpertSystem\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.16" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\Гигант мысли\.SmartTomcat\ExpertSystem\ExpertSystem" />
+      <option name="contextPath" value="/ExpertSystem" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat-10.1.16" />
+          <option name="path" value="$PROJECT_DIR$/../../DEV/JDK/apache-tomcat-10.1.16" />
+          <option name="version" value="10.1.16.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="ExpertSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7b4ac88-5010-4030-8dc1-ba0df800ae7d" name="Changes" comment="" />
+      <created>1714208167890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714208167890</updated>
+      <workItem from="1714208169066" duration="3634000" />
+      <workItem from="1714976080929" duration="1735000" />
+      <workItem from="1716732342524" duration="749000" />
+      <workItem from="1716733510448" duration="18029000" />
+      <workItem from="1716757063510" duration="8963000" />
+      <workItem from="1717245439961" duration="28000" />
+      <workItem from="1717246537532" duration="22000" />
+    </task>
+    <task id="LOCAL-00001" summary="Стартовая версия">
+      <option name="closed" value="true" />
+      <created>1717254360705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717254360705</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init upgrade&#10;немого правок, подготовка к добавлению основного функционала">
+      <option name="closed" value="true" />
+      <created>1717349803367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717349803367</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Оптимизация кода, доработка основания под главный функционал">
+      <option name="closed" value="true" />
+      <created>1717354462440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717354462440</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавлено переключение вопросов">
+      <option name="closed" value="true" />
+      <created>1717360444235</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717360444235</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Добавлен подсчёт результата с учётов весов из БД">
+      <option name="closed" value="true" />
+      <created>1717371735328</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717371735328</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавлена возможность редактирования весов">
+      <option name="closed" value="true" />
+      <created>1717381708132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717381708132</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавлен подсчёт результатов теста с учётом весов">
+      <option name="closed" value="true" />
+      <created>1717383509646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717383509646</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавлен файл со стилями. Добавлен &quot;дизайн&quot;">
+      <option name="closed" value="true" />
+      <created>1717384681117</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717384681117</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Исправлен баг при котором если все ответы теста были НЕТ, то веса материалов оставались ненулевыми.">
+      <option name="closed" value="true" />
+      <created>1717384936647</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717384936647</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="Стартовая версия" />
+    <MESSAGE value="init upgrade&#10;немого правок, подготовка к добавлению основного функционала" />
+    <MESSAGE value="Оптимизация кода, доработка основания под главный функционал" />
+    <MESSAGE value="Добавлено переключение вопросов" />
+    <MESSAGE value="Добавлен подсчёт результата с учётов весов из БД" />
+    <MESSAGE value="Добавлена возможность редактирования весов" />
+    <MESSAGE value="Добавлен подсчёт результатов теста с учётом весов" />
+    <MESSAGE value="Добавлен файл со стилями. Добавлен &quot;дизайн&quot;" />
+    <MESSAGE value="Исправлен баг при котором если все ответы теста были НЕТ, то веса материалов оставались ненулевыми." />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлен баг при котором если все ответы теста были НЕТ, то веса материалов оставались ненулевыми." />
+  </component>
+</project>

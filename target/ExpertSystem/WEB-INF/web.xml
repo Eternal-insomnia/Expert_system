@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+  <display-name>Office furniture</display-name>
+  <welcome-file-list>
+    <welcome-file>/main.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>addQuestion</servlet-name>
+    <jsp-file>/addQuestion.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addQuestion</servlet-name>
+    <url-pattern>/addQuestion</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>addMaterial</servlet-name>
+    <jsp-file>/addMaterial.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addMaterial</servlet-name>
+    <url-pattern>/addMaterial</url-pattern>
+  </servlet-mapping>
+</web-app>
